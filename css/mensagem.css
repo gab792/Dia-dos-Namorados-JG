@@ -1,0 +1,28 @@
+.container {
+    position: relative;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.gif {
+    position: relative;
+    width: 700px;
+}
+
+.gif-top {
+    position: absolute;
+    width: 120px;
+    height: auto;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+.mensagem img {
+    width: 700px;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 70px;
+}
