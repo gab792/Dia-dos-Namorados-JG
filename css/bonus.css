@@ -5,10 +5,17 @@ body {
     background-color: #f0f0f0;
 }
 
-.bonus{
+.bonus {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
+    padding: 20px;
+}
 
+video {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    border-radius: 12px;
 }

@@ -1,28 +1,42 @@
 .container {
     position: relative;
-    width: 700px;
+    width: 100%;
+    max-width: 700px;
     margin: 0 auto;
+    padding: 15px;
+    box-sizing: border-box;
 }
 
 .gif {
     position: relative;
-    width: 700px;
+    width: 100%;
 }
 
 .gif-top {
     position: absolute;
     width: 120px;
     height: auto;
-    top: -100px;
+    top: -70px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 10;
 }
 
 .mensagem img {
-    width: 700px;
+    width: 100%;
     height: auto;
-    display: flex;
-    margin: 0 auto;
-    margin-top: 70px;
+    display: block;
+    margin: 70px auto 0;
+}
+
+@media (max-width: 480px) {
+
+    .gif-top {
+        width: 90px;
+        top: -50px;
+    }
+
+    .container {
+        padding: 10px;
+    }
 }
